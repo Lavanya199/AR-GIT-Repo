@@ -8,8 +8,8 @@ private class HelloWorldTestClass
 
        // Insert book
        insert b;
-    
-       // Retrieve the new book
+       
+        // Retrieve the new book
        b = [SELECT Price__c FROM Book__c WHERE Id =:b.Id];
        System.debug('Price after trigger fired: ' + b.Price__c);
 
