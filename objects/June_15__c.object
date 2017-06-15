@@ -52,6 +52,14 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>June_15_Field2__c</fullName>
+        <externalId>false</externalId>
+        <label>June 15 Field2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>June_15_field__c</fullName>
         <externalId>false</externalId>
         <label>June 15 field</label>
@@ -61,7 +69,6 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>June 15</label>
     <nameField>
         <label>June 15 Name</label>
         <type>Text</type>

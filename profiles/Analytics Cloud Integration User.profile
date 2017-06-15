@@ -851,6 +851,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>June_15__c.June_15_Field2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>June_15__c.June_15_field__c</field>
         <readable>true</readable>
     </fieldPermissions>
