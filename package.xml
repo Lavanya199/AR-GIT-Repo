@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>39.0</version>
+    <types>
+        <members>HelloWorldTestClass</members>
+        <members>MyHelloWorld</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>HelloWorldTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
     <types>
         <members>AppSwitcher</members>
         <members>Salesforce1</members>
@@ -29,6 +39,7 @@
         <name>Community</name>
     </types>
     <types>
+        <members>Recruitment</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
         <members>standard__Community</members>
@@ -51,12 +62,16 @@
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
+        <members>Book__c.Price__c</members>
+        <members>CRM_Request__c.Challenges_faced__c</members>
+        <members>CRM_Request__c.Work_Item__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
         <members>Case.SLAViolation__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
+        <members>Employee__c.Gender__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
@@ -69,6 +84,24 @@
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>Position__c.Apex__c</members>
+        <members>Position__c.C__c</members>
+        <members>Position__c.Close_Date__c</members>
+        <members>Position__c.Educational_Requirements__c</members>
+        <members>Position__c.Functional_Area__c</members>
+        <members>Position__c.Hire_By__c</members>
+        <members>Position__c.Java_Script__c</members>
+        <members>Position__c.Java__c</members>
+        <members>Position__c.Job_Level__c</members>
+        <members>Position__c.Location__c</members>
+        <members>Position__c.Max_Pay__c</members>
+        <members>Position__c.Min_Pay__c</members>
+        <members>Position__c.Open_Date__c</members>
+        <members>Position__c.Responsibilities__c</members>
+        <members>Position__c.Skills_Required__c</members>
+        <members>Position__c.Status__c</members>
+        <members>Position__c.Travel_Required__c</members>
+        <members>Position__c.Type__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -82,6 +115,8 @@
         <members>Activity</members>
         <members>Asset</members>
         <members>AssistantProgress</members>
+        <members>Book__c</members>
+        <members>CRM_Request__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>Case</members>
@@ -95,6 +130,7 @@
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>EmailMessage</members>
+        <members>Employee__c</members>
         <members>Event</members>
         <members>ExchangeUserMapping</members>
         <members>FeedItem</members>
@@ -112,6 +148,7 @@
         <members>Order</members>
         <members>OrderItem</members>
         <members>PartnerRole</members>
+        <members>Position__c</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
@@ -120,9 +157,15 @@
         <members>Solution</members>
         <members>StreamingChannel</members>
         <members>Task</members>
+        <members>UAT1__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>CRM_Request__c</members>
+        <members>UAT1__c</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>Case.Standard</members>
@@ -147,6 +190,8 @@
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
         <members>Asset-Asset Layout</members>
+        <members>Book__c-Book Layout</members>
+        <members>CRM_Request__c-CRM Request Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>Case-Case %28Marketing%29 Layout</members>
@@ -163,6 +208,7 @@
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
+        <members>Employee__c-Employee Layout</members>
         <members>Event-Event Layout</members>
         <members>FeedItem-Feed Item Layout</members>
         <members>Global-Global Layout</members>
@@ -184,6 +230,7 @@
         <members>Product2-Product Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
+        <members>UAT1__c-UAT1 Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
@@ -201,6 +248,7 @@
         <members>Activity.TodaysTasks</members>
         <members>Activity.UpcomingEvents</members>
         <members>Asset.AllAssets</members>
+        <members>CRM_Request__c.All</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
         <members>Case.AllClosedCases</members>
@@ -239,6 +287,7 @@
         <members>Product2.AllProducts</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
+        <members>UAT1__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
@@ -260,6 +309,7 @@
         <name>MatchingRules</name>
     </types>
     <types>
+        <members>AR Demo PRofile</members>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
@@ -357,6 +407,34 @@
         <members>VPNorthAmericanSales</members>
         <members>WesternSalesTeam</members>
         <name>Role</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Activities</members>
+        <members>Address</members>
+        <members>BusinessHours</members>
+        <members>Case</members>
+        <members>Company</members>
+        <members>Contract</members>
+        <members>Entitlement</members>
+        <members>FileUploadAndDownloadSecurity</members>
+        <members>Forecasting</members>
+        <members>Ideas</members>
+        <members>Knowledge</members>
+        <members>LiveAgent</members>
+        <members>Macro</members>
+        <members>Mobile</members>
+        <members>Name</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>OrgPreference</members>
+        <members>PathAssistant</members>
+        <members>PersonalJourney</members>
+        <members>Product</members>
+        <members>Quote</members>
+        <members>Search</members>
+        <members>Security</members>
+        <name>Settings</name>
     </types>
     <types>
         <members>Account</members>
@@ -474,33 +552,4 @@
         <members>UserProvisioningRequest</members>
         <name>Workflow</name>
     </types>
-    <types>
-        <members>Account</members>
-        <members>Activities</members>
-        <members>Address</members>
-        <members>BusinessHours</members>
-        <members>Case</members>
-        <members>Company</members>
-        <members>Contract</members>
-        <members>Entitlement</members>
-        <members>FileUploadAndDownloadSecurity</members>
-        <members>Forecasting</members>
-        <members>Ideas</members>
-        <members>Knowledge</members>
-        <members>LiveAgent</members>
-        <members>Macro</members>
-        <members>Mobile</members>
-        <members>Name</members>
-        <members>Opportunity</members>
-        <members>Order</members>
-        <members>OrgPreference</members>
-        <members>PathAssistant</members>
-        <members>PersonalJourney</members>
-        <members>Product</members>
-        <members>Quote</members>
-        <members>Search</members>
-        <members>Security</members>
-        <name>Settings</name>
-    </types>
-    <version>39.0</version>
 </Package>
