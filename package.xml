@@ -69,7 +69,9 @@
         <members>Case.SLAViolation__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
+        <members>Employee__c.Gender__c</members>
         <members>Goal.OrigGoalId__c</members>
+        <members>June_15__c.June_15_field__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
@@ -81,6 +83,24 @@
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>Position__c.Apex__c</members>
+        <members>Position__c.C__c</members>
+        <members>Position__c.Close_Date__c</members>
+        <members>Position__c.Educational_Requirements__c</members>
+        <members>Position__c.Functional_Area__c</members>
+        <members>Position__c.Hire_By__c</members>
+        <members>Position__c.Java_Script__c</members>
+        <members>Position__c.Java__c</members>
+        <members>Position__c.Job_Level__c</members>
+        <members>Position__c.Location__c</members>
+        <members>Position__c.Max_Pay__c</members>
+        <members>Position__c.Min_Pay__c</members>
+        <members>Position__c.Open_Date__c</members>
+        <members>Position__c.Responsibilities__c</members>
+        <members>Position__c.Skills_Required__c</members>
+        <members>Position__c.Status__c</members>
+        <members>Position__c.Travel_Required__c</members>
+        <members>Position__c.Type__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -108,11 +128,13 @@
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>EmailMessage</members>
+        <members>Employee__c</members>
         <members>Event</members>
         <members>ExchangeUserMapping</members>
         <members>FeedItem</members>
         <members>ForecastingCategoryMapping</members>
         <members>Idea</members>
+        <members>June_15__c</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
         <members>Macro</members>
@@ -125,6 +147,7 @@
         <members>Order</members>
         <members>OrderItem</members>
         <members>PartnerRole</members>
+        <members>Position__c</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
@@ -136,6 +159,10 @@
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Position__c</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>Case.Standard</members>
@@ -177,10 +204,12 @@
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
+        <members>Employee__c-Employee Layout</members>
         <members>Event-Event Layout</members>
         <members>FeedItem-Feed Item Layout</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
+        <members>June_15__c-June 15 Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
@@ -193,6 +222,7 @@
         <members>OpportunityLineItem-Opportunity Product Layout</members>
         <members>Order-Order Layout</members>
         <members>OrderItem-Order Product Layout</members>
+        <members>Position__c-Position Layout</members>
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
@@ -250,6 +280,7 @@
         <members>Order.AllActivatedOrders</members>
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
+        <members>Position__c.All</members>
         <members>Product2.AllProducts</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
