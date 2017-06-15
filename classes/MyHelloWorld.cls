@@ -4,6 +4,7 @@ public class MyHelloWorld
    {
       for (Book__c b :books)
       {
+          //Giving 10% Discount
          b.Price__c *= 0.9;
       }
    }
