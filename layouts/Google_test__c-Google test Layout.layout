@@ -14,6 +14,10 @@
                 <behavior>Edit</behavior>
                 <field>Test_field__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>G_field_2__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
