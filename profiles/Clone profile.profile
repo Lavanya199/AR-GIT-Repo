@@ -2,10 +2,18 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Book__c.Price__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Clone_test__c.Clone_test_field__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Book__c-Book Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Clone_test__c-Clone test Layout</layout>
     </layoutAssignments>
