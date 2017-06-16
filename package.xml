@@ -56,6 +56,7 @@
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
         <members>Case.SLAViolation__c</members>
+        <members>Clone_test__c.Clone_test_field__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
         <members>Goal.OrigGoalId__c</members>
@@ -90,6 +91,7 @@
         <members>CampaignMember</members>
         <members>Case</members>
         <members>CaseContactRole</members>
+        <members>Clone_test__c</members>
         <members>Contact</members>
         <members>ContactCleanInfo</members>
         <members>ContentVersion</members>
@@ -160,6 +162,7 @@
         <members>Case-Case %28Support%29 Layout</members>
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
+        <members>Clone_test__c-Clone test Layout</members>
         <members>Contact-Contact %28Marketing%29 Layout</members>
         <members>Contact-Contact %28Sales%29 Layout</members>
         <members>Contact-Contact %28Support%29 Layout</members>
@@ -275,6 +278,7 @@
         <members>Chatter External User</members>
         <members>Chatter Free User</members>
         <members>Chatter Moderator User</members>
+        <members>Clone profile</members>
         <members>ContractManager</members>
         <members>Cross Org Data Proxy User</members>
         <members>Custom%3A Marketing Profile</members>
