@@ -63,6 +63,7 @@
         <members>Goal.OrigGoalId__c</members>
         <members>Google_test__c.G_field_2__c</members>
         <members>Google_test__c.Test_field__c</members>
+        <members>June21obj__c.June21field__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
@@ -109,6 +110,7 @@
         <members>ForecastingCategoryMapping</members>
         <members>Google_test__c</members>
         <members>Idea</members>
+        <members>June21obj__c</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
         <members>Macro</members>
@@ -180,6 +182,7 @@
         <members>Global-Global Layout</members>
         <members>Google_test__c-Google test Layout</members>
         <members>Idea-Idea Layout</members>
+        <members>June21obj__c-June21obj Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
@@ -300,6 +303,7 @@
         <members>High Volume Customer Portal User</members>
         <members>HighVolumePortal</members>
         <members>Identity User</members>
+        <members>June 21 profile</members>
         <members>MarketingProfile</members>
         <members>Partner App Subscription User</members>
         <members>Partner Community Login User</members>
