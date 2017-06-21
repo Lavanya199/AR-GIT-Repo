@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
+    <description>Testing purpose</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>June21obj__c.June21field__c</field>
@@ -10,6 +11,10 @@
         <layout>June21obj__c-June21obj Layout</layout>
     </layoutAssignments>
     <userLicense>Salesforce</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ActivateOrder</name>
+    </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>AllowUniversalSearch</name>

@@ -43,6 +43,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Created for testing purpose</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -54,8 +55,9 @@
     <fields>
         <fullName>June21field__c</fullName>
         <externalId>false</externalId>
+        <inlineHelpText>Testing purpose</inlineHelpText>
         <label>June21field</label>
-        <length>50</length>
+        <length>30</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
