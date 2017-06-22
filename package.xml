@@ -77,6 +77,7 @@
         <members>Opportunity.TrackingNumber__c</members>
         <members>Salesforce__c.SF_Text__c</members>
         <members>Test2_obj__c.Test2_field__c</members>
+        <members>Test3_obj__c.Test3_field__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -134,6 +135,7 @@
         <members>StreamingChannel</members>
         <members>Task</members>
         <members>Test2_obj__c</members>
+        <members>Test3_obj__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <name>CustomObject</name>
@@ -204,6 +206,7 @@
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>Test2_obj__c-Test2 obj Layout</members>
+        <members>Test3_obj__c-Test3 obj Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
@@ -318,6 +321,7 @@
         <members>Standard</members>
         <members>StandardAul</members>
         <members>Test2 Profile</members>
+        <members>Test3 Profile</members>
         <members>Userstory</members>
         <members>Work%2Ecom Only User</members>
         <name>Profile</name>
