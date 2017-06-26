@@ -27,6 +27,10 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+        <members>Case.Case AR rule</members>
+        <name>AutoResponseRule</name>
+    </types>
+    <types>
         <members>Case</members>
         <members>Lead</members>
         <name>AutoResponseRules</name>
@@ -564,5 +568,13 @@
         <members>UserLicense</members>
         <members>UserProvisioningRequest</members>
         <name>Workflow</name>
+    </types>
+    <types>
+        <members>Case.Case_alert</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <members>Case.case trial</members>
+        <name>WorkflowRule</name>
     </types>
 </Package>
