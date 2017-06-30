@@ -1,9 +1,11 @@
 public Class CreateAccountClass
 { 
-public Account CreateRecord(String name)
-{ 
-Account acc = new Account(); 
-acc.Name = name; 
-return acc; 
-} 
+    public Account CreateRecord(String name)
+    { 
+        //Create a new account
+        Account acc = new Account(); 
+        acc.Name = name; 
+        acc.AccountNumber = '1234';
+        return acc; 
+    } 
 }

@@ -5,6 +5,7 @@
         <members>CreateAccount</members>
         <members>CreateAccountClass</members>
         <members>CreateAccountClassTest</members>
+        <members>HelloWorldClassTest</members>
         <members>HelloWorldTestClass</members>
         <members>MyHelloWorld</members>
         <name>ApexClass</name>
