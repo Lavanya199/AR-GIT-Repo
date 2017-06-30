@@ -5,7 +5,7 @@ public class MyHelloWorld
       //MyHelloWorld Class
       for (Book__c b :books)
       {
-          //Giving 20% Discount on price
+          //Giving 20% Discount on price for books
           b.Price__c *= 0.8;
       }
    }
