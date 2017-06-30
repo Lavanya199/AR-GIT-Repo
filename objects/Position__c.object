@@ -421,6 +421,11 @@
         </valueSet>
     </fields>
     <label>Position</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>Position Name</label>
         <trackFeedHistory>true</trackFeedHistory>

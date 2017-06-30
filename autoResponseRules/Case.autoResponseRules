@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Case AR rule</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email</value>
+            </criteriaItems>
+            <replyToEmail>lavanya.y@autorabit.com</replyToEmail>
+            <senderEmail>lavanya.y@autorabit.com</senderEmail>
+            <senderName>Lavanya</senderName>
+            <template>unfiled$public/Case_alert</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

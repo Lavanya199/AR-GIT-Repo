@@ -1,5 +1,5 @@
 @isTest 
-private class HelloWorldTestClass 
+private class HelloWorldClassTest 
 {
     static testMethod void validateHelloWorld() 
     {
