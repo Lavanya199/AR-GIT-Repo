@@ -85,6 +85,9 @@
         <members>Case.SLAViolation__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
+        <members>Demo2__c.Type__c</members>
+        <members>Demo3__c.Requirement__c</members>
+        <members>Demo3__c.Type_of_Demo__c</members>
         <members>Demo_object__c.Demo_Picklist_field__c</members>
         <members>Employee__c.Age__c</members>
         <members>Employee__c.Gender__c</members>
@@ -147,6 +150,8 @@
         <members>Contract</members>
         <members>ContractContactRole</members>
         <members>DandBCompany</members>
+        <members>Demo2__c</members>
+        <members>Demo3__c</members>
         <members>Demo_object__c</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
@@ -229,6 +234,8 @@
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
+        <members>Demo2__c-Demo2 Layout</members>
+        <members>Demo3__c-Demo3 Layout</members>
         <members>Demo_object__c-Demo object Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
