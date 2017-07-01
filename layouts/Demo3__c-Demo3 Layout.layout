@@ -18,6 +18,10 @@
                 <behavior>Edit</behavior>
                 <field>Type_of_Demo__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Presenter_Email__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
