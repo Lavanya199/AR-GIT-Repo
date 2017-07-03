@@ -83,6 +83,7 @@
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
         <members>Demo2__c.Type__c</members>
+        <members>Demo3__c.Demo_Title__c</members>
         <members>Demo3__c.Features__c</members>
         <members>Demo3__c.Presenter_Email__c</members>
         <members>Demo3__c.Requirement__c</members>
