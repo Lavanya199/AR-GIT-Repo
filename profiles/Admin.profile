@@ -1448,6 +1448,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Test_Demo__c.AutorabitExtId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Test_Demo__c.NZ_Post_field__c</field>
         <readable>true</readable>
     </fieldPermissions>

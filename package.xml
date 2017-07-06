@@ -126,6 +126,7 @@
         <members>Position__c.Status__c</members>
         <members>Position__c.Travel_Required__c</members>
         <members>Position__c.Type__c</members>
+        <members>Test_Demo__c.AutorabitExtId__c</members>
         <members>Test_Demo__c.NZ_Post_field__c</members>
         <members>Test_Demo__c.Test_field__c</members>
         <name>CustomField</name>
