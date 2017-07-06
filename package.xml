@@ -123,6 +123,11 @@
         <members>Position__c.Status__c</members>
         <members>Position__c.Travel_Required__c</members>
         <members>Position__c.Type__c</members>
+        <members>Reservation__c.Amount__c</members>
+        <members>Salesforce__c.SF_Text__c</members>
+        <members>Test2_obj__c.Test2_field__c</members>
+        <members>Test3_obj__c.Test3_field__c</members>
+        <members>Test4_obj__c.Test4_field__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -179,6 +184,8 @@
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
+        <members>Reservation__c</members>
+        <members>Salesforce__c</members>
         <members>Site</members>
         <members>SocialPersona</members>
         <members>Solution</members>
