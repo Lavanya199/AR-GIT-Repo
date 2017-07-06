@@ -12,11 +12,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Demo_Picklist_field__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Industry__c</field>
+                <field>July3_field__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

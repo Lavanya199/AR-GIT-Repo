@@ -69,6 +69,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>HelloWorldClassTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>HelloWorldTestClass</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -814,6 +818,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Demo_object__c.Industry__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Employee__c.Age__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -861,6 +870,11 @@
         <editable>false</editable>
         <field>Idea.Status</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>July3__c.July3_field__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1249,6 +1263,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Order_Management__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Product2.Description</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1327,6 +1346,11 @@
         <field>Task.WhoId</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Demo__c.Test_field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -1385,6 +1409,9 @@
         <layout>Idea-Idea Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>July3__c-July3 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>June_15__c-June 15 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1406,6 +1433,9 @@
         <layout>OrderItem-Order Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Order_Management__c-Order Management Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Pricebook2-Price Book Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1419,6 +1449,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Demo__c-Test Demo Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>User-User Layout</layout>
@@ -1600,6 +1633,10 @@
         <recordType>Metric.Progress</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Test_Demo__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>

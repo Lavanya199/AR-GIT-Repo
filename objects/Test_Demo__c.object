@@ -43,66 +43,35 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Demo purpose - 1</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Demo_Picklist_field__c</fullName>
-        <description>Demo purpose</description>
+        <fullName>Test_field__c</fullName>
         <externalId>false</externalId>
-        <label>Demo Picklist field</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>1</fullName>
-                    <default>false</default>
-                    <label>1</label>
-                </value>
-                <value>
-                    <fullName>2</fullName>
-                    <default>false</default>
-                    <label>2</label>
-                </value>
-                <value>
-                    <fullName>3</fullName>
-                    <default>false</default>
-                    <label>3</label>
-                </value>
-                <value>
-                    <fullName>4</fullName>
-                    <default>false</default>
-                    <label>4</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Industry__c</fullName>
-        <externalId>false</externalId>
-        <label>Industry</label>
+        <label>Test field</label>
         <length>50</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Demo object</label>
+    <label>Test Demo</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
-        <label>Demo object Name</label>
+        <label>Test Demo Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Demo objects</pluralLabel>
+    <pluralLabel>Test Demos</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

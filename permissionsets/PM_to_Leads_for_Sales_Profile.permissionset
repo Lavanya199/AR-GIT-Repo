@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>CreateAccountClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CreateAccountClassTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HelloWorldClassTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Demo_object__c.Demo_Picklist_field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Demo_object__c.Industry__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>July3__c.July3_field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Order_Management__c.Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Demo__c.Test_field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>PM to Leads for Sales Profile</label>
+    <tabSettings>
+        <tab>Test_Demo__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+</PermissionSet>

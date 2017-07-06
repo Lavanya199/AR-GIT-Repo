@@ -3,8 +3,8 @@ private class HelloWorldClassTest
 {
     static testMethod void validateHelloWorld() 
     {
-        //This is Test Class
-       Book__c b = new Book__c(Name='Behind the Cloud', Price__c=100);
+        //This is Test Class - for Demo purpose
+       Book__c b = new Book__c(Name='Behind the Salesforce Cloud', Price__c=100);
        System.debug('Price before inserting new book: ' + b.Price__c);
 
        // Insert book
@@ -15,6 +15,6 @@ private class HelloWorldClassTest
        System.debug('Price after trigger fired: ' + b.Price__c);
 
        // Test that the trigger correctly updated the price
-       System.assertEquals(80, b.Price__c);
+       System.assertEquals(90, b.Price__c);
     }
 }
