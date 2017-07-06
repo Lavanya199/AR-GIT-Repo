@@ -1,5 +1,6 @@
 trigger HelloWorldTrigger on Book__c (before insert) 
 {
-   Book__c[] books = Trigger.new;
-   MyHelloWorld.applyDiscount(books);
+   //trigger on before Insert of book record
+   Book__c[] b = Trigger.new;
+   MyHelloWorld.applyDiscount(b); //calling Apply discount method
 }

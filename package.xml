@@ -102,6 +102,7 @@
         <members>Position__c.Status__c</members>
         <members>Position__c.Travel_Required__c</members>
         <members>Position__c.Type__c</members>
+        <members>Reservation__c.Amount__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -152,6 +153,7 @@
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
+        <members>Reservation__c</members>
         <members>Site</members>
         <members>SocialPersona</members>
         <members>Solution</members>
@@ -228,6 +230,7 @@
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
+        <members>Reservation__c-Reservation Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>UAT1__c-UAT1 Layout</members>
