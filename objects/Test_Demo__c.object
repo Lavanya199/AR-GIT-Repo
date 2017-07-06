@@ -67,7 +67,7 @@
         <description>For Demo purpose</description>
         <externalId>false</externalId>
         <label>NZ Post field</label>
-        <length>50</length>
+        <length>30</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
@@ -83,7 +83,6 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Test Demo</label>
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>

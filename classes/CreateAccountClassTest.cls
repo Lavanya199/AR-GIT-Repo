@@ -1,7 +1,7 @@
 @istest 
 public class CreateAccountClassTest
 { 
-    //test method 
+    //test method -  NZ Post Demo purpose
     static testmethod void CreateAccTest()
     { 
         CreateAccountClass acc = new CreateAccountClass();
