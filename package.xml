@@ -75,6 +75,25 @@
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>Position__c.Apex__c</members>
+        <members>Position__c.C__c</members>
+        <members>Position__c.Close_Date__c</members>
+        <members>Position__c.Educational_Requirements__c</members>
+        <members>Position__c.Functional_Area__c</members>
+        <members>Position__c.Hire_By__c</members>
+        <members>Position__c.Java_Script__c</members>
+        <members>Position__c.Java__c</members>
+        <members>Position__c.Job_Level__c</members>
+        <members>Position__c.Location__c</members>
+        <members>Position__c.Max_Pay__c</members>
+        <members>Position__c.Min_Pay__c</members>
+        <members>Position__c.Open_Date__c</members>
+        <members>Position__c.Responsibilities__c</members>
+        <members>Position__c.Skills_Required__c</members>
+        <members>Position__c.Status__c</members>
+        <members>Position__c.Travel_Required__c</members>
+        <members>Position__c.Type__c</members>
+        <members>Reservation__c.Amount__c</members>
         <members>Salesforce__c.SF_Text__c</members>
         <members>Test2_obj__c.Test2_field__c</members>
         <members>Test3_obj__c.Test3_field__c</members>
@@ -129,6 +148,7 @@
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
+        <members>Reservation__c</members>
         <members>Salesforce__c</members>
         <members>Site</members>
         <members>SocialPersona</members>
@@ -204,7 +224,6 @@
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
-        <members>Salesforce__c-Salesforce Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>Test2_obj__c-Test2 obj Layout</members>

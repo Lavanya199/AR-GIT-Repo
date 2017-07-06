@@ -1249,6 +1249,7 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Salesforce__c.SF_Text__c</field>
+        <field>Reservation__c.Amount__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1373,6 +1374,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Salesforce__c-Salesforce Layout</layout>
+        <layout>Reservation__c-Reservation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Solution-Solution Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Solution-Solution Layout</layout>
@@ -1533,6 +1538,16 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Reservation__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>SocialPersona</object>
         <object>Salesforce__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
