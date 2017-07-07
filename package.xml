@@ -71,6 +71,7 @@
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
         <members>Book__c.Price__c</members>
+        <members>CI_Job__c.CI_Job_field__c</members>
         <members>Campsite_Reservation__c.Campsite__c</members>
         <members>Campsite_Reservation__c.End_Date__c</members>
         <members>Campsite_Reservation__c.Start_Date__c</members>
@@ -143,6 +144,7 @@
         <members>Asset</members>
         <members>AssistantProgress</members>
         <members>Book__c</members>
+        <members>CI_Job__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>Campsite_Reservation__c</members>
@@ -243,6 +245,7 @@
         <members>Account-Account Layout</members>
         <members>Asset-Asset Layout</members>
         <members>Book__c-Book Layout</members>
+        <members>CI_Job__c-CI Job Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>Campsite_Reservation__c-Campsite Reservation Layout</members>
