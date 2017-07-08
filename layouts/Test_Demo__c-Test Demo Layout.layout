@@ -18,6 +18,10 @@
                 <behavior>Edit</behavior>
                 <field>NZ_Post_field__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Paycor_field__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

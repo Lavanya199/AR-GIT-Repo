@@ -130,6 +130,7 @@
         <members>Position__c.Type__c</members>
         <members>Test_Demo__c.AutorabitExtId__c</members>
         <members>Test_Demo__c.NZ_Post_field__c</members>
+        <members>Test_Demo__c.Paycor_field__c</members>
         <members>Test_Demo__c.Test_field__c</members>
         <name>CustomField</name>
     </types>
