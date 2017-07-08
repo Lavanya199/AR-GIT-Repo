@@ -333,6 +333,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CI_Job__c.Alm_tool__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CI_Job__c.CI_Job_field__c</field>
         <readable>true</readable>
     </fieldPermissions>

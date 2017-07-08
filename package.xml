@@ -71,6 +71,7 @@
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
         <members>Book__c.Price__c</members>
+        <members>CI_Job__c.Alm_tool__c</members>
         <members>CI_Job__c.CI_Job_field__c</members>
         <members>Campsite_Reservation__c.Campsite__c</members>
         <members>Campsite_Reservation__c.End_Date__c</members>
