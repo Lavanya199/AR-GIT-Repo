@@ -174,6 +174,7 @@
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
+        <members>Object2__c</members>
         <members>Offer__c</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
@@ -256,6 +257,7 @@
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>Macro-Macro Layout</members>
+        <members>Object2__c-Object2 Layout</members>
         <members>Offer__c-Offer Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
