@@ -8,11 +8,12 @@ private class HelloWorldClassTest
        System.debug('Price before inserting new book: ' + b.Price__c);
 
        // Insert book
+       System.debug('Insert Book record');
        insert b;
        
         // Retrieve the new book
        b = [SELECT Price__c FROM Book__c WHERE Id =:b.Id];
-       System.debug('Price after trigger fired: ' + b.Price__c);
+       System.debug('Price after trigger fired: ' + b.Price__c); //Showing Price of book
 
        // Test that the trigger correctly updated the price
        System.assertEquals(80, b.Price__c);
